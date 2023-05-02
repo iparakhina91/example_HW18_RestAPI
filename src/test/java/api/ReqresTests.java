@@ -74,7 +74,7 @@ public class ReqresTests {
     }
 
     @Test
-    @DisplayName("Регистрация пользователя POST /api/register без password")
+    @DisplayName("Регистрация пользователя POST api/register без password")
     void unsuccessfulRegisterMissingPasswordTest() {
         String body = "{ \"email\": \"irina@mail.ru\" }";
 
